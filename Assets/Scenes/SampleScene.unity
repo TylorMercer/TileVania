@@ -20775,29 +20775,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 122252512794461692, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
+    - target: {fileID: 2744398545021811435, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 6200000, guid: a23a9a958950b9d42a81e6ad734b6a2e, type: 2}
-    - target: {fileID: 4637486197249721585, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: m_GravityScale
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4637486197249721585, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7051336759664716730, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: jumpSpeed
-      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8938958414534795937, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
       propertyPath: m_Name
       value: John (Player)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8938958414534795937, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8938958414534795938, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
       propertyPath: m_RootOrder
