@@ -1382,11 +1382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1477486023 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2621506555469255484, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-  m_PrefabInstance: {fileID: 8938958414078283749}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1710476206
 GameObject:
   m_ObjectHideFlags: 0
@@ -21894,7 +21889,7 @@ GameObject:
   - component: {fileID: 2125775718}
   m_Layer: 11
   m_Name: Goober (Ememy)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22126,26 +22121,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2744398545021811435, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7051336759664716730, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: gun
-      value: 
-      objectReference: {fileID: 1477486023}
-    - target: {fileID: 7051336759664716730, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 8221383543695669976, guid: 6404f22b78539244d8c4a0f8e88acf39, type: 3}
-    - target: {fileID: 7051336759664716730, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: deathKick.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7051336759664716730, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
-      propertyPath: deathKick.y
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8938958414534795937, guid: 1f06181e415c2d94a908768a0bd0672b, type: 3}
       propertyPath: m_Name
       value: John (Player)
