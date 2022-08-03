@@ -17,6 +17,7 @@ public class Bullet : MonoBehaviour
         xSpeed = player.transform.localScale.x * bulletSpeed;
     }
 
+    //Need to update the bullet to be something new.
     void Update()
     {
         myRidgidbody.velocity = new Vector2(xSpeed,0f);
