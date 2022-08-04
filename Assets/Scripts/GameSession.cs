@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+//Need to look up how a database contains this gamesession.
 public class GameSession : MonoBehaviour
 {
     [SerializeField] int playersLives = 3;
