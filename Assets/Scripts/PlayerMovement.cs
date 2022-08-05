@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         Die();
     }
 
+    //How to update this to be 4 way shooting
     void OnFire(InputValue value)
     {
          if(!isAlive){return;}
