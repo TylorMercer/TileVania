@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScenePersist : MonoBehaviour
 {
+    //Need a opening scene
     void Awake()
     {
         int numScenePersists = FindObjectsOfType<ScenePersist>().Length;
