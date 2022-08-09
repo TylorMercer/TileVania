@@ -22,6 +22,7 @@ public class EnemyMovement : MonoBehaviour
         FlipEnemyFacing();
     }
 
+//example of using mathf to flip the enemy when they hiting edge of map
     void FlipEnemyFacing()
     {
         transform.localScale = new Vector2 (-(Mathf.Sign(myRigidbody.velocity.x)), 1f);
