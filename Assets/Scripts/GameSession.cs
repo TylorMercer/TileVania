@@ -13,6 +13,8 @@ public class GameSession : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
+
+    //Keeping the session around
     void Awake()
     {
         int numGameSeesions = FindObjectsOfType<GameSession>().Length;
