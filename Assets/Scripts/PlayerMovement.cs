@@ -74,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FlipSprite()
     {
+        //Look up video for more details.
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
 
         if(playerHasHorizontalSpeed)
